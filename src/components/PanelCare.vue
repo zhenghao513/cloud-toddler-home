@@ -5,17 +5,17 @@
 <script setup lang="ts">
   const items = ref([
     {
-      icon: '/leave.png',
+      icon: '/cloud-toddler-home/leave.png',
       title: '日常请假',
       to: '/leave',
     },
     {
-      icon: '/apply.png',
+      icon: '/cloud-toddler-home/apply.png',
       title: '代接申请',
       to: '/substitution',
     },
     {
-      icon: '/suggestion-box.png',
+      icon: '/cloud-toddler-home/suggestion-box.png',
       title: '我要建议',
       to: '/suggestion',
     },

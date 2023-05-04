@@ -24,19 +24,19 @@
   const tabbarItems: CustomTabbarItemProps[] = [
     {
       name: 'home',
-      icon: '/home.png',
+      icon: '/cloud-toddler-home/home.png',
       to: '/home',
       text: '首页',
     },
     {
       name: 'dynamic',
-      icon: '/dynamic.png',
+      icon: '/cloud-toddler-home/dynamic.png',
       to: '/dynamic',
       text: '动态',
     },
     {
       name: 'user',
-      icon: '/me.png',
+      icon: '/cloud-toddler-home/me.png',
       to: '/user',
       text: '我',
     },

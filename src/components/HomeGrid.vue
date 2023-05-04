@@ -8,42 +8,42 @@
   const items = ref<GridItemProps[]>([
     {
       text: '精彩瞬间',
-      icon: '/wonderful-moments.png',
+      icon: '/cloud-toddler-home/wonderful-moments.png',
       to: '/photo',
     },
     {
       text: '成长手册',
-      icon: '/growth-manual.png',
+      icon: '/cloud-toddler-home/growth-manual.png',
       to: '/handbook',
     },
     {
       text: '签到',
-      icon: '/sign-in.png',
+      icon: '/cloud-toddler-home/sign-in.png',
       to: '/sign-in',
     },
     {
       text: '建议箱',
-      icon: '/suggestion-box.png',
+      icon: '/cloud-toddler-home/suggestion-box.png',
       to: '/suggestion',
     },
     {
       text: '园所参观',
-      icon: '/visit.png',
+      icon: '/cloud-toddler-home/visit.png',
       to: '/garden-visit',
     },
     {
       text: '报名申请',
-      icon: '/apply.png',
+      icon: '/cloud-toddler-home/apply.png',
       to: '/registry-apply',
     },
     {
       text: '今天吃什么',
-      icon: '/shop.png',
+      icon: '/cloud-toddler-home/shop.png',
       to: '/canteen-menu',
     },
     {
       text: '游戏中心',
-      icon: '/gift.png',
+      icon: '/cloud-toddler-home/gift.png',
       to: '/game-hub',
     },
   ]);

@@ -6,9 +6,9 @@
   import type { ItemProps } from '@/components/AppPanel.vue';
 
   const items = ref<ItemProps[]>([
-    { icon: '/invite.png', title: '新幼儿报名', to: '' },
-    { icon: '/document.png', title: '原幼儿报名', to: '' },
-    { icon: '/pay.png', title: '线上缴费', to: '' },
+    { icon: '/cloud-toddler-home/invite.png', title: '新幼儿报名', to: '' },
+    { icon: '/cloud-toddler-home/document.png', title: '原幼儿报名', to: '' },
+    { icon: '/cloud-toddler-home/pay.png', title: '线上缴费', to: '' },
   ]);
 </script>
 
