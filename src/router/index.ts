@@ -5,7 +5,7 @@ import { showNotify } from 'vant';
 import 'vant/es/notify/style';
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/cloud-toddler-home/'),
   routes: [
     {
       path: '/login',

@@ -7,6 +7,7 @@ import pxtorem from 'postcss-pxtorem';
 import AutoImport from './config/auto-import';
 
 export default defineConfig({
+  base: '/cloud-toddler-home/',
   plugins: [
     vue(),
     Components({
