@@ -1,0 +1,53 @@
+@import url('assets/css/font.css');
+
+:root {
+  box-sizing: border-box;
+  font-size: calc(100vw / 10);
+  font-family: HarmonyOS;
+}
+
+:root:root {
+  --van-grid-item-content-background: none;
+  --van-cell-group-inset-radius: 0.4em;
+  --van-cell-group-inset-padding: 0 0.3em;
+  --van-tag-padding: 0.1em;
+  --van-base-font: HarmonyOS;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #f1f3f5;
+}
+
+.vertical-container {
+  display: table-cell;
+  vertical-align: middle;
+  height: calc(100vh - 70px);
+  width: 100vw;
+}
+
+.media {
+  padding: 0.3em;
+  background-color: #eee;
+  border-radius: 0.4em;
+}
+
+.media-image {
+  float: left;
+  margin-right: 0.3em;
+}
+
+.media-body {
+  overflow: auto;
+  margin-top: 0;
+}
+
+.media-body h6 {
+  margin-top: 0;
+  font-size: 0.4em;
+}
